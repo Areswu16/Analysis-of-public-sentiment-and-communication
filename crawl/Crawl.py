@@ -204,7 +204,7 @@ def start():
     keyword = ['疫情', '武汉', '肺炎', '新型', '冠状病毒', '感染', '口罩', '医院', '病毒', '确诊', '患者', '加油', "病例", '防控', '隔离', '新冠', '一线',
                '湖北', '传播', '治疗', '医护人员', '出院', '健康', '发热', '消毒', '症状', '治愈', '新增', '致敬', '社区', '物资', '防护', '酒精',
                ]
-    start_time = '2020-01-01-00'
+    start_time = '2020-01-20-00'
     global mystart_time
     global mystart_day
     global boo
@@ -217,7 +217,7 @@ def start():
         temp_day = "0" + temp_day
     if len(temp_time) == 1:
         temp_time = "0" + temp_time
-    end_time = '2020-02-{}-{}'.format(temp_day, temp_time)
+    end_time = '2020-05-{}-{}'.format(temp_day, temp_time)
     WeiboTopicScrapy(keyword=keyword[random.randint(0, len(keyword))], start_time=start_time, end_time=end_time)
 
 if __name__ == '__main__':
