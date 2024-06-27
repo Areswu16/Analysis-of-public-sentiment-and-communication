@@ -1,3 +1,9 @@
-# Analysis-of-public-sentiment-and-communication
-This is the final project for Big Data Dissemination and New Media Analysis (DATA130036) at Fudan University, Spring 2024.  
-Co-authors are Lingjie Chen and Yuyin Yang.  
+# 分析公众情感与传播
+本项目为2024年春 “大数据传播与新媒体分析”（DATA130036）课程期末项目  
+作者：吴义栋
+共同作者：陈凌杰和杨羽因
+
+## 摘要
+本研究旨在通过应用BERT（Bidirectional Encoder Representations from Transformers）模型进行情感分类分析，探索大数据分析和社会科学研究的新方法和新视角。BERT模型是一种基于深度学习的自然语言处理模型，能够有效地捕捉文本中的语义信息和情感特征，适用于处理微博等社交媒体上的非结构化文本数据。
+
+通过对微博数据进行情感分析，本研究能够深入了解公众在疫情初期的情感反应。这不仅有助于揭示不同情感在信息传播过程中的作用，还可以为政府和相关机构在危机管理中制定信息传播策略提供科学依据。例如，了解公众对疫情的恐慌、焦虑或信任情绪，可以帮助相关部门优化信息发布的时机和内容，以提升公众对防控措施的信任和遵从度。此外，本研究还可以为社会科学研究提供新的数据来源和分析工具，推动跨学科研究的发展，进一步丰富和完善社会科学研究的理论和方法体系。
